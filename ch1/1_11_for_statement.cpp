@@ -11,8 +11,9 @@ int main() {
     return 1;
   }
 
-  for (int i = n1; i <= n2; i++) {
-    std::cout << i << std::endl;
+  while(n1 <= n2) {
+    std::cout << n1 << std::endl;
+    n1++;
   }
   return 0;
 }
